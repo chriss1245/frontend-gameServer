@@ -202,7 +202,9 @@
             </div>
 
         </div>  
-
-      <script src="./modules/bootstrap/js/bootstrap.bundle.js"></script>
+      
+        {% assets 'snake_js' %}
+        <script src="{{ ASSET_URL }}"></script>
+        {% endassets %}
     </body>
 </html>
